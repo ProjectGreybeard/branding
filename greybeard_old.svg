@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128.0px"
+   height="128.0px"
+   viewBox="0 0 128.0 128.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="greybeard_old.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="greybeard1-1.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview280"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.1291572"
+     inkscape:cx="-116.24318"
+     inkscape:cy="-0.93933881"
+     inkscape:window-width="2560"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid286"
+       empspacing="4" />
+    <sodipodi:guide
+       position="-106.75992,84.248304"
+       orientation="0,-1"
+       id="guide2574"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="63.875038,102.9901"
+       orientation="1,0"
+       id="guide2576"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs275" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#cccccc"
+       d="m 28,4 h 72 v 24 l 12,44 v 36 l -4,8 -8,8 -72,0.24898 L 20,116 16,108 V 72 L 28,28 Z"
+       id="path347"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:#ffccaa;fill-opacity:1"
+       d="m 36,18 4,-6 h 12 l 4,6 h 16 l 4,-6 h 12 l 4,6 12.06012,56.224362 -80.142698,-0.0051 z"
+       id="path5512"
+       sodipodi:nodetypes="ccccccccccc" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.02153"
+       id="rect2791"
+       width="12"
+       height="4"
+       x="39.666458"
+       y="32.225842" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke-width:1.02153"
+       id="rect2791-3"
+       width="12"
+       height="4"
+       x="75.780869"
+       y="31.639462" />
+    <rect
+       style="fill:#ffb380;fill-opacity:1;stroke-width:1.44466"
+       id="rect2791-6-7"
+       width="24"
+       height="4"
+       x="40"
+       y="-72"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffb380;fill-opacity:1;stroke-width:1.44466"
+       id="rect2791-6"
+       width="24"
+       height="4"
+       x="40"
+       y="-60"
+       transform="rotate(90)" />
+    <path
+       style="fill:#cccccc;fill-opacity:1"
+       d="M 24,64 56,55.944569 60,60 h 8 l 4,-4 32,8 V 76 H 24 Z"
+       id="path6301"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1"
+       d="M 60,28 48,24 H 36 Z"
+       id="path6303"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1"
+       d="m 67.160378,28.0053 12,-4 h 12 z"
+       id="path6303-2"
+       sodipodi:nodetypes="cccc" />
+    <rect
+       style="fill:#ffccaa;fill-opacity:1;stroke-width:2.5551"
+       id="rect2791-35"
+       width="40"
+       height="12.28409"
+       x="44"
+       y="68" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:0.719135"
+       id="rect6453"
+       width="8"
+       height="14"
+       x="60"
+       y="72" />
+    <rect
+       style="fill:#e9afaf;fill-opacity:1;stroke-width:0.213721"
+       id="rect1305-5"
+       width="16"
+       height="4"
+       x="56"
+       y="68" />
+  </g>
+</svg>
