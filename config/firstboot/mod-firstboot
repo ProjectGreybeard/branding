@@ -1,0 +1,47 @@
+#!/bin/sh
+firstboot=$HOME/.config/sway/config.d/50-firstboot.conf
+backup_dir=$HOME/.config/sway/config.d/backup
+{
+    sleep 1
+    for i in XXX "Initialize First Boot" XXX 5;
+    do echo $i; done
+
+    sleep 2
+    for i in XXX "Waiting for Internet connection" XXX 10;
+    do echo $i; done
+    until /usr/bin/ping -q -c 1 flathub.org
+    do sleep 1; done
+
+    for i in XXX "Adding Flathub Repository" XXX 20;
+    do echo $i; done
+    /usr/bin/flatpak remote-add --user --if-not-exists flathub /usr/share/greybeard-desktop/flathub.flatpakrepo &>/dev/null
+	if [ "$?" != 0 ] ; then
+        	dialog --msgbox "Adding Flathub Repo Failed" 10 60
+        	exit 1
+	fi
+
+    sleep 1
+    for i in XXX "Installing Firefox" XXX 50;
+    do echo $i; done
+    /usr/bin/flatpak install --user --noninteractive flathub org.mozilla.firefox &>/dev/null
+        if [ "$?" != 0 ] ; then
+            dialog --msgbox "Installing Firefox Failed" 10 60
+            exit 1
+        fi
+
+
+    for i in XXX 'Finishing up' XXX 90;
+    do echo $i; done
+        if [[ -f $firstboot ]]; then
+            mkdir -p $firstboot_backup
+            mv $firstboot $backup_dir/50-firstboot.conf
+        else sleep 1
+	fi
+    echo 100
+    sleep 2
+
+} | dialog --gauge "Greybeard Desktop Firstboot" 10 60 0
+
+if [ "$?" != 0 ] ; then
+         dialog --msgbox "Firstboot Configuration Error" 10 60
+fi
