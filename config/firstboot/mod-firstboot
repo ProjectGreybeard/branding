@@ -33,7 +33,7 @@ backup_dir=$HOME/.config/sway/config.d/backup
     for i in XXX 'Finishing up' XXX 90;
     do echo $i; done
         if [[ -f $firstboot ]]; then
-            mkdir -p $firstboot_backup
+            mkdir -p $backup_dir
             mv $firstboot $backup_dir/50-firstboot.conf
         else sleep 1
 	fi
