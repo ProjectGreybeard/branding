@@ -108,19 +108,17 @@ button:hover {
 }
 
 #clock {
-    background-color: transparent;
+    background-color: #64727D;
 }
 
 #battery {
-    background-color: #CFCFCF;
+    background-color: #ffffff;
     color: #000000;
-    box-shadow: inset 0 -3px #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
     background-color: #26A65B;
-    box-shadow: inset 0 -3px #2AB865;
 }
 
 @keyframes blink {
@@ -147,87 +145,71 @@ label:focus {
 #cpu {
     background-color: #2ecc71;
     color: #000000;
-    box-shadow: inset 0 -3px #58D98E;
 }
 
 #memory {
     background-color: #9b59b6;
-    box-shadow: inset 0 -3px #AA70C0;
 }
 
 #disk {
     background-color: #964B00;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #backlight {
     background-color: #90b1b1;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #network {
     background-color: #2980b9;
-    box-shadow: inset 0 -3px #4B96C8;
 }
 
 #network.disconnected {
     background-color: #f53c3c;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #pulseaudio {
     background-color: #f1c40f;
     color: #000000;
-    box-shadow: inset 0 -3px #F7DB6C;
 }
 
 #pulseaudio.muted {
     background-color: #90b1b1;
     color: #2a5c45;
-    box-shadow: inset 0 -3px #ADC8C8;
 }
 
 #wireplumber {
     background-color: #fff0f5;
     color: #000000;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #wireplumber.muted {
     background-color: #f53c3c;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #custom-media {
     background-color: #66cc99;
     color: #2a5c45;
     min-width: 100px;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #custom-media.custom-spotify {
     background-color: #66cc99;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #custom-media.custom-vlc {
     background-color: #ffa000;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #temperature {
     background-color: #f0932b;
-    box-shadow: inset 0 -3px #F3AA56;
 }
 
 #temperature.critical {
     background-color: #eb4d4b;
-    box-shadow: inset 0 -3px #EF7472;
 }
 
 #tray {
     background-color: #2980b9;
-    box-shadow: inset 0 -3px #4B96C8;
 }
 
 #tray > .passive {
@@ -237,34 +219,28 @@ label:focus {
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
-    box-shadow: inset 0 -3px #EF7472;
 }
 
 #idle_inhibitor {
     background-color: #2d3436;
-    box-shadow: inset 0 -3px #3A4245;
 }
 
 #idle_inhibitor.activated {
-    background-color: #CFCFCF;
+    background-color: #ecf0f1;
     color: #2d3436;
-    box-shadow: inset 0 -3px #ffffff;
 }
 
 #mpd {
     background-color: #66cc99;
     color: #2a5c45;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #mpd.disconnected {
     background-color: #f53c3c;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #mpd.stopped {
     background-color: #90b1b1;
-    box-shadow: inset 0 -3px #8A8A8A;
 }
 
 #mpd.paused {
@@ -281,7 +257,6 @@ label:focus {
 
 #keyboard-state {
     background: #97e1ad;
-    box-shadow: inset 0 -3px #AEE8BF;
     color: #000000;
     padding: 0 0px;
     margin: 0 5px;
