@@ -9,7 +9,7 @@ backup_dir=$HOME/.config/sway/config.d/backup
     sleep 2
     for i in XXX "Waiting for Internet connection" XXX 10;
     do echo $i; done
-    until /usr/bin/ping -q -c 1 flathub.org
+    until /usr/bin/curl -s --max-time 5 https://flathub.org > /dev/null
     do sleep 1; done
 
     for i in XXX "Adding Flathub Repository" XXX 20;
